@@ -1,4 +1,4 @@
-foo = [0..]
+foo = [0 ..]
 
 bar x =
   [ 0
@@ -11,4 +11,12 @@ baz x =
   .. x
   ]
 
-barbaz x = [0, 1..]
+barbaz x = [0, 1 ..]
+
+arst = [0 :: Int ..]
+
+brst = [0, 1 :: Int ..]
+
+crst = [0 :: Int .. 10]
+
+drst = [0, 1 :: Int .. 10]
